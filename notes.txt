@@ -1,3 +1,17 @@
 compile typescript (in bash term):
 tsc filname.ts
 
+initialise project folder:
+npm init -y
+
+install lite server:
+npm install --save-dev lite-server
+
+add new script in "scripts": {} in package.json, to start lite-server:
+"start": "lite-server"
+
+start liite-script:
+npm start
+
+nav to server:
+http://localhost:3000/
